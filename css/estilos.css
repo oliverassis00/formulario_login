@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.texto-login {
+    font-size: 32px;
+    text-align: center;
+}
+
+.textos-e-inputs {
+    display: flex;
+    margin: 20px 0px;
+    flex-direction: column;
+}
+
+.textos-e-inputs label {
+    margin: 10px 0px 5px;
+}
+
+.textos-e-inputs input {
+    padding: 3px 4px;
+}
+
+.botao {
+    font-size: 20px;
+    outline: none;
+    font-weight: bold;
+    padding: 5px 0px;
+    letter-spacing: 1px;
+}
